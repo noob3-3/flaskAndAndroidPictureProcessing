@@ -9,7 +9,7 @@
 ![等待页面](https://github.com/noob3-3/flaskAndAndroidPictureProcessing/blob/master/images/等待页面.png)
 ![结果显示](https://github.com/noob3-3/flaskAndAndroidPictureProcessing/blob/master/images/结果显示.png)
 ### python服务端
-![界面](https://github.com/noob3-3/flaskAndAndroidPictureProcessing/blob/master/images/界面.png)
+![界面](https://github.com/noob3-3/flaskAndAndroidPictureProcessing/blob/master/images/服务端部署.png)
 ## 技能树
 
 ### Android客户端
