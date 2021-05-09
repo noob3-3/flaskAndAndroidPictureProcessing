@@ -5,11 +5,11 @@
 ##### 	学习opencv库以后，自己做了一个简单的图像处理函数，或是训练了一个模型，如何快速的搭建一个webapi，并配合移动设备进行测试呢？本库就是一个讲的dome，用最简单的方法，帮你简单快捷的部署你的学习成功!!!
 ##效果截图
 ### Android客户端
-![界面](E:\PycharmProjects\flaskPictureProcessing\README.assets\界面.png)
-![等待页面](E:\PycharmProjects\flaskPictureProcessing\README.assets\等待页面.png)
-![结果显示](E:\PycharmProjects\flaskPictureProcessing\README.assets\结果显示.png)
+![界面](https://github.com/noob3-3/flaskAndAndroidPictureProcessing/blob/master/images/界面.png)
+![等待页面](https://github.com/noob3-3/flaskAndAndroidPictureProcessing/blob/master/images/等待页面.png)
+![结果显示](https://github.com/noob3-3/flaskAndAndroidPictureProcessing/blob/master/images/结果显示.png)
 ### python服务端
-![界面](E:\PycharmProjects\flaskPictureProcessing\README.assets\界面.png)
+![界面](https://github.com/noob3-3/flaskAndAndroidPictureProcessing/blob/master/images/界面.png)
 ## 技能树
 
 ### Android客户端
