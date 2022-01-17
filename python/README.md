@@ -2,11 +2,13 @@
 
 ## 目录结构
 
-### --android android客户端代码
+### --app.py         flask后端程序
 
-###   ----okhttpDemo  android Studio项目 
+###   --Dockerfile   docker镜像编译
 
-###   ----
+###   --gunicorn.conf.py      gunicorn配置
 
-### --pythonflask python服务端代码
+### --requirementsfordocker.txt        docker部署依赖库
+
+### --requirementsforwindows.txt     windows部署依赖库
 

@@ -22,27 +22,11 @@ def v_upload():
     try:
         upload_file = request.files['file'].read()
         im1 = cv2.imdecode(np.frombuffer(upload_file, np.uint8), cv2.IMREAD_COLOR)
-        # print(type(upload_file))
-        # upload_file = upload_file.read()
-        # print(type(upload_file))
-        # img_stream = io.BytesIO(upload_file)
-        # print(type(img_stream))
-        # img = Image.open(img_stream)
-        # im2 = cv2.imread(img)
         ret,thresh = test(im1)
         im = Image.fromarray(thresh)
         filename = str(int(time.time()))
         cv2.imwrite("./templates/"+filename+'.png', thresh)
         return jsonify({"state": "success", "filename":filename+'.png',"ret":ret})
-        # imgByteArr = io.BytesIO()
-        # im.save(imgByteArr, format='JPEG')
-        # imgByteArr = imgByteArr.getvalue()
-        # return send_file(
-        #     io.BytesIO(imgByteArr),
-        #     mimetype='image/png',
-        #     as_attachment=True,
-        #     attachment_filename='result.jpg'
-        # )
     except Exception as e:
         print(e)
         return {"state": "error"}
